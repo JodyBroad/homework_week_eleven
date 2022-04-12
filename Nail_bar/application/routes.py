@@ -56,7 +56,7 @@ def appointment():
 
     if request.method == 'POST':
         if form.validate_on_submit():
-            booking_info = f'Appointment request for {form.service.data} at {form.time.data} sent!'
+            booking_info = f'Appointment request for {form.service_dropdown.data} at {form.time.data} sent!'
             return render_template('appointment_booked.html', booking_info=booking_info)
 
     return render_template('appointment.html', title='Appointments', form=form, message=error)
