@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body {
+
+      font: 20px Quicksand, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+      background-color: #006466; /* Skobeloff */
+}
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+      background-color: #4D194D; /* Palatinate Purple */
+      color: #f5f6f7;
+  }
+  .bg-2 {
+      background-color: #0B525B; /* Midnight Green Eagle Green */
+      color: #f5f6f7;
+  }
+  .bg-3 {
+      background-color: #212F45; /* Prussian Blue */
+      color: #f5f6f7;
+  }
+  .bg-4 {
+      background-color: #312244; /* Dark Purple */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #9B287B !important;
+  }
+  .btn-default {
+      background-color: #006466; /* Skobeloff */
+  }
+  .form {
+      position: relative;
+      width: 55%;
+      text-align: right;
+  }
+
+  .label {
+      position: absolute;
+      width: 30%;
+      left: 10%;
+      text-align: right;
+      margin-right: 30px;
+  }
