@@ -44,3 +44,6 @@ services = [
     }
 
 ]
+
+services_list = [(0, "French Manicure"), (1, "Gel polish"), (2, "Soak and remove existing gel polish"),
+                 (3, "Acrylic nails - full set"), (4, "Acrylic nails - infills")]

@@ -1,8 +1,8 @@
-from flask import Flask, render_template, url_for, request
+from flask import render_template, url_for, request
 
 from application import app, services
 
-from forms import ContactForm, AppointmentForm
+from application.forms import ContactForm, AppointmentForm
 
 # can use more than one decorator at a time, so if you typed either '/' or '/home' you get the same stuff returned
 
@@ -20,7 +20,7 @@ def about():
 
 @app.route('/price_list')
 def price_list():
-    return render_template('price_list.html', title='Price List', services=services)
+    return render_template('price_list.html', title='Price List', services=services.services)
 
 
 # uses the secret maths template
